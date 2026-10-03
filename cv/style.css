@@ -227,6 +227,66 @@ strong {
   line-height: 1.45;
 }
 
+/* ========================================================= 
+   Experience 
+  ========================================================= */ 
+
+.experience {
+  margin-bottom: 45px;
+}
+
+.experience:last-child {
+  margin-bottom: 0;
+}
+
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  margin-bottom: 16px;
+}
+
+.experience-header h3 {
+  font-size: 1.05rem;
+}
+
+.company {
+  margin-top: 3px;
+  margin-bottom: 0;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.date {
+  flex-shrink: 0;
+  margin: 1px 0 0;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+ul {
+  margin: 0;
+  padding-left: 19px;
+}
+
+li {
+  margin-bottom: 7px;
+  color: var(--text-secondary);
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: var(--text);
+}
+
 /* =========================================================
    Page responsiveness
    ========================================================= */
